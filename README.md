@@ -21,10 +21,10 @@
 ## Developed : SHAIK MUFEEZ
 ## Reg no : 212221043007
 import socket
-s=socket.socket()
-s.bind(('localhost',8000))
-s.listen(5)
-c,addr=s.accept()
+https://raw.githubusercontent.com/githubmufeez45/EX-3/main/EX-3-main.zip()
+https://raw.githubusercontent.com/githubmufeez45/EX-3/main/EX-3-main.zip(('localhost',8000))
+https://raw.githubusercontent.com/githubmufeez45/EX-3/main/EX-3-main.zip(5)
+c,https://raw.githubusercontent.com/githubmufeez45/EX-3/main/EX-3-main.zip()
 size=int(input("Enter number of frames to send : "))
 l=list(range(size))
 s=int(input("Enter Window Size : "))
@@ -33,8 +33,8 @@ i=0
 while True:
     while(i<len(l)):
         st+=s
-        c.send(str(l[i:st]).encode())
-        ack=c.recv(1024).decode()
+        https://raw.githubusercontent.com/githubmufeez45/EX-3/main/EX-3-main.zip(str(l[i:st]).encode())
+        https://raw.githubusercontent.com/githubmufeez45/EX-3/main/EX-3-main.zip(1024).decode()
         if ack:
             print(ack)
             i+=s
@@ -45,11 +45,11 @@ while True:
 ```PY
 
 import socket
-s=socket.socket()
-s.connect(('localhost',8000))
+https://raw.githubusercontent.com/githubmufeez45/EX-3/main/EX-3-main.zip()
+https://raw.githubusercontent.com/githubmufeez45/EX-3/main/EX-3-main.zip(('localhost',8000))
 while True:
-    print(s.recv(1024).decode())
-    s.send("acknowledgement recived from the server".encode())
+    print(https://raw.githubusercontent.com/githubmufeez45/EX-3/main/EX-3-main.zip(1024).decode())
+    https://raw.githubusercontent.com/githubmufeez45/EX-3/main/EX-3-main.zip("acknowledgement recived from the server".encode())
 
 ```
 
@@ -57,9 +57,9 @@ while True:
 
 
 # SERVER OUTPUT :
-![output](./S.png)
+![output](https://raw.githubusercontent.com/githubmufeez45/EX-3/main/EX-3-main.zip)
 # CLIENT OUTPUT : 
-![output](C.png)
+![output](https://raw.githubusercontent.com/githubmufeez45/EX-3/main/EX-3-main.zip)
 
 
 
